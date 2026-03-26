@@ -1,12 +1,23 @@
 import streamlit as st
 
-st.title("Projects")
+st.title("🚀 Projects")
 
-st.subheader("1. Github Analyzer")
-st.write("An app to analyze github repos")
+col1, col2, col3 = st.columns(3)
 
-st.subheader("2. Job Market Intelligence")
-st.write("Analyzes job trends using real world datasets")
+with col1:
+    st.image("https://via.placeholder.com/300")
+    st.subheader("GitHub Analyzer")
+    st.write("Analyze GitHub profiles and repositories.")
+    st.markdown("[🔗 View Project](https://github.com/Murari2209/Github-Analyzer)")
 
-st.subheader("3. Pension Sanction System (Ministry of Defence)")
-st.write("A portal for auditing pensions and generating E-PPOs for retired Indian AirForce personnel")
+with col2:
+    st.image("https://via.placeholder.com/300")
+    st.subheader("Job Market Intelligence")
+    st.write("Analyze job trends using datasets.")
+    st.markdown("[🔗 View Project](https://github.com/Murari2209)")
+
+with col3:
+    st.image("https://via.placeholder.com/300")
+    st.subheader("Pension Sanction System")
+    st.write("Generate E-PPOs For Indian AirForce Pensioners.")
+    st.markdown("[🔗 View Project](https://github.com/Murari2209)")
